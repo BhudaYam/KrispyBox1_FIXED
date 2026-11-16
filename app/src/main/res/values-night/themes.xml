@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.KrispyBox1" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@color/screen_bg</item>
+        <item name="android:navigationBarColor">@color/screen_bg</item>
+        <item name="colorPrimary">@color/krispy_red</item>
+        <item name="colorPrimaryVariant">@color/krispy_red</item>
+        <item name="colorAccent">@color/krispy_red</item>
+        <item name="android:windowBackground">@color/screen_bg</item>
+    </style>
+</resources>

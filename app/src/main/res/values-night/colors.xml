@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="screen_bg">#0F1115</color>
+    <color name="background_dark">#0F1115</color>
+    <color name="card_bg">#171A21</color>
+    <color name="card_dark">#1E232C</color>
+    <color name="secondary_button_bg">#2A303B</color>
+    <color name="nav_bg">#151820</color>
+    <color name="krispy_red">#E53935</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B8BEC9</color>
+    <color name="text_grey">#8F96A3</color>
+    <color name="divider_grey">#333842</color>
+    <color name="google_button_bg">#2C2C2C</color>
+    <color name="google_button_stroke">#3D3D3D</color>
+    <color name="scrim">#B3000000</color>
+</resources>

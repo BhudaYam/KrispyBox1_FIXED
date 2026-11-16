@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_customise_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="← Back"
+            android:textColor="@color/text_primary"
+            app:backgroundTint="@android:color/transparent" />
+
+        <TextView
+            android:id="@+id/tv_customise_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="MAKE IT YOURS"
+            android:textColor="@color/text_primary"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_customise_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="R65"
+            android:textColor="@color/krispy_red"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="REMOVE INGREDIENTS"
+            android:textColor="@color/text_primary"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Tell us what you don't want in your meal."
+            android:textColor="@color/text_secondary" />
+
+        <CheckBox
+            android:id="@+id/cb_no_pickles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No pickles"
+            android:textColor="@color/text_primary" />
+
+        <CheckBox
+            android:id="@+id/cb_no_tomatoes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No tomatoes"
+            android:textColor="@color/text_primary" />
+
+        <CheckBox
+            android:id="@+id/cb_no_onions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No onions"
+            android:textColor="@color/text_primary" />
+
+        <CheckBox
+            android:id="@+id/cb_no_lettuce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No lettuce"
+            android:textColor="@color/text_primary" />
+
+        <CheckBox
+            android:id="@+id/cb_no_sauce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No sauce"
+            android:textColor="@color/text_primary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="SPECIAL INSTRUCTIONS"
+            android:textColor="@color/text_primary"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_special_instructions"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_edittext"
+            android:gravity="top"
+            android:hint="Example: Please make the chicken extra crispy..."
+            android:padding="14dp"
+            android:textColor="@color/text_primary"
+            android:textColorHint="@color/text_grey" />
+
+        <CheckBox
+            android:id="@+id/cb_remember_preferences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Remember these preferences for my next order"
+            android:textColor="@color/text_primary" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="⚠ ALLERGY NOTICE"
+                android:textColor="@color/krispy_red"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Ingredient removal does not guarantee that cross-contact will not occur. Please speak to staff about serious allergies."
+                android:textColor="@color/text_secondary" />
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_add_customised"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginBottom="25dp"
+            android:text="ADD TO CART"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/krispy_red" />
+
+    </LinearLayout>
+
+</ScrollView>
